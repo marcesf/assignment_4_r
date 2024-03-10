@@ -17,7 +17,7 @@ bibliography: references.bib
 ---
 
 ```{r}
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 ```
 
 # Aim
@@ -55,13 +55,11 @@ Suppose we were interested in looking in more closely at the province
 with the highest spread (in terms of standard deviation) of horse populations. 
 We present the standard deviations in @tbl-horse-sd.
 
-@tbl-horse-sd. Standard deviation of historical (1906-1972) horse populations for each Canadian province.
-
 ```{r}
 #| label: tbl-horse-sd
 #| tbl-cap: "Standard deviation of historical (1906-1972) horse populations for each Canadian province."
 
-horses_sd_table <- read_csv("../results/horses_sd.csv")
+horses_sd_table <- read_csv("../results/horses_sd.csv", show_col_types = FALSE)
 largest_sd <- horses_sd_table$Province[1]
 knitr::kable(horses_sd_table)
 ```
