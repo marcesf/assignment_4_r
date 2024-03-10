@@ -6,8 +6,19 @@ execute:
 format: html
 editor: source
 bibliography: references.bib
-toc: true
-toc-depth: 2
+format:
+
+    html:
+
+        toc: true
+
+        toc-depth: 2
+
+    pdf:
+
+        toc: true
+
+        toc-depth: 2
 ---
 
 ```{r}
