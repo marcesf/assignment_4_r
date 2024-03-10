@@ -4,10 +4,11 @@ author: "Tiffany Timbers & Jordan Bourak"
 format:
     html:
         toc: true
-        toc-depth: 2
-    pdf:
+        toc-depth: 2   
+	pdf:
         toc: true
         toc-depth: 2
+        fig-pos: "H"
 editor: source
 bibliography: references.bib
 execute:
@@ -75,53 +76,6 @@ Additionally, note that in @tbl-horse-sd we consider the sample standard deviati
 In @fig-horse-sd-prov we zoom in and look at the province of `{tbl-horse-sd} largest_sd`, which had the largest spread of values in terms of standard deviation.
 
 # References
-
-@article{govCanada2017a,
-  author = {{Government of Canada}},
-  title = {Government of Canada's Open Data website (2017a)},
-  year = {2017},
-  url = {http://open.canada.ca/en/open-data}
-}
-
-@article{govCanada2017b,
-  author = {{Government of Canada}},
-  title = {Government of Canada's Open Data website (2017b)},
-  year = {2017},
-  url = {http://open.canada.ca/en/open-data}
-}
-
-@article{rCore2019,
-  author = {{R Core Team}},
-  title = {R programming language},
-  year = {2019},
-  url = {https://www.R-project.org/}
-}
-
-@article{xie2014,
-  author = {Xie},
-  title = {knitr},
-  year = {2014}
-}
-
-
-@article{wickham2017,
-author = {{Wickham}},
- title = {tidyverse},
-  year = {2017}
-}
-
-@article{allaire2022,
- author = {{Allaire et al}},
-   title = {Quarto},
-  year = {2022}
-}
-
-@article{timbers2020,
-  author = {{Timbers}},
-  title = {DSCI 310 Individual Assignment Quarto R}
-  year = {2020},
-  url = {https://github.com/UBC-DSCI/dsci-310-individual-assignment-quarto-r.git}
-}
 
 
 
